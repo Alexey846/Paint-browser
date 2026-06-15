@@ -35,7 +35,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-p {
+div.colorPicker p {
     position: absolute;
     font-size: 1em;
     color: white;
@@ -63,4 +63,13 @@ p {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+div.backgroundColorPicker p {
+    position: absolute;
+    font-size: 1em;
+    color: white;
+    bottom: -5px;
+    font-family: sans-serif;
+    left: 20%;
 }
